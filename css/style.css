@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+}
+.backgd {
+  position: relative;
+  top: 80px;
+  left: 0;
+  width: 78%;
+  background-color: #34421e;
+  height: 600px;
+}
+.image {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  background-image: url("../image/01.jpg");
+  background-size: cover;
+  width: 61%;
+  bottom: -100px;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 30px;
+}
+.descr{position: absolute;
+    bottom: 100px;
+    right: 50px;
+    width: 45%;
+    font-family: 'Open Sans', sans-seri;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    line-height: 1.5em;
+}
+.title{
+    position: absolute;
+    top: 100px;
+    left: -13%;
+    width: 30%;
+font-family: 'Roboto', sans-serif;
+font-size: 96px;
+letter-spacing: 1px;
+color: white;
+}
