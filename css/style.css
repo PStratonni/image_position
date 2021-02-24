@@ -14,7 +14,7 @@ body * {
 }
 .image {
   position: absolute;
-  top: 20px;
+  top: 40px;
   right: 50px;
   background-image: url("../image/01.jpg");
   background-size: cover;
